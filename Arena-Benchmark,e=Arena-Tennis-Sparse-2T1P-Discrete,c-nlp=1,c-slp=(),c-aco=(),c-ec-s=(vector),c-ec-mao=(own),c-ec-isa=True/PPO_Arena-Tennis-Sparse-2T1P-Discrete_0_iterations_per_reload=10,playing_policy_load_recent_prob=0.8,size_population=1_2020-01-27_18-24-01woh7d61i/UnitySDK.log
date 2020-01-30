@@ -1,0 +1,72 @@
+1/27/2020 6:24:07 PM
+ 
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Log
+00-Agent Reset, CumulativeReward: 0
+
+Log
+10-Agent Reset, CumulativeReward: 0
+
+1/27/2020 6:24:12 PM
+ 
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Exception
+ArgumentNullException: Value cannot be null.
+Parameter name: shader
+UnityEngine.Material..ctor (UnityEngine.Shader shader) (at <e0cc1b872f104080a4448e5bbfb127d3>:0)
+Arena.VecObsVisualizor.Initialize () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+Arena.ArenaBase.Start () (at <adeaace8e32d46f4af3566ae8ccc66f2>:0)
+
+Log
+00-Agent Reset, CumulativeReward: 0
+
+Log
+10-Agent Reset, CumulativeReward: 0
+

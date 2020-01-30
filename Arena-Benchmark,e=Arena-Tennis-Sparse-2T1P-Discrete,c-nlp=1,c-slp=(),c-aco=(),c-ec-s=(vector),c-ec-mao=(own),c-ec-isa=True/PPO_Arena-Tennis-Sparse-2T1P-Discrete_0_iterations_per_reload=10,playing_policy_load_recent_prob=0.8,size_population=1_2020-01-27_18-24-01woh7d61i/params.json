@@ -1,0 +1,76 @@
+{
+  "act_space": "Discrete(9)",
+  "actor_critic_obs": [],
+  "batch_mode": "truncate_episodes",
+  "callbacks": {
+    "on_train_result": "tune.function(<function on_train_result at 0x7f685f83abf8>)"
+  },
+  "clip_param": 0.1,
+  "clip_rewards": "None",
+  "entropy_coeff": 0.01,
+  "env": "Arena-Tennis-Sparse-2T1P-Discrete",
+  "env_config": {
+    "is_shuffle_agents": true,
+    "multi_agent_obs": [
+      "own"
+    ],
+    "sensors": [
+      "vector"
+    ],
+    "train_mode": true
+  },
+  "iterations_per_reload": 10,
+  "kl_coeff": 0.5,
+  "lambda": 0.95,
+  "learning_policy_ids": [
+    "policy_0"
+  ],
+  "multiagent": {
+    "policies": {
+      "policy_0": [
+        "<class 'ray.rllib.policy.tf_policy_template.PPOTFPolicy'>",
+        "Box(84,)",
+        "Discrete(9)",
+        {
+          "vf_share_layers": [
+            true
+          ]
+        }
+      ],
+      "policy_1": [
+        "<class 'ray.rllib.policy.tf_policy_template.PPOTFPolicy'>",
+        "Box(84,)",
+        "Discrete(9)",
+        {
+          "custom_action_dist": "<class 'arena.models.DeterministicCategorical'>",
+          "vf_share_layers": [
+            true
+          ]
+        }
+      ]
+    },
+    "policies_to_train": [
+      "policy_0"
+    ],
+    "policy_mapping_fn": "tune.function(<function policy_mapping_fn_i2i at 0x7f6861b75a60>)"
+  },
+  "num_envs_per_worker": 2,
+  "num_gpus": 1,
+  "num_learning_policies": 1,
+  "num_sgd_iter": 10,
+  "num_workers": 10,
+  "number_agents": 2,
+  "obs_space": "Box(84,)",
+  "observation_filter": "NoFilter",
+  "playing_policy_ids": [
+    "policy_1"
+  ],
+  "playing_policy_load_recent_prob": 0.8,
+  "sample_batch_size": 100,
+  "sgd_minibatch_size": 500,
+  "share_layer_policies": [],
+  "size_population": 1,
+  "train_batch_size": 5000,
+  "vf_clip_param": 10.0,
+  "vf_share_layers": true
+}
