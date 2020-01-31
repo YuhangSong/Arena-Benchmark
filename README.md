@@ -2,9 +2,11 @@
 
 
 
-## Common Naming Rules
+## Common Naming 
 
-* ```Arena-```: a prefix identifying an Arena environment.
+A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discrete```, which follows some common naming rules as follows:
+
+* ```Arena```: a prefix identifying an Arena environment.
 * ```Sparese```: the reward is sparse, the reward is only returned at the end of the episode.
 * ```Dense```: the reward is dense, the reward is returned every step.
 * ```xTyP```: ```x``` teams competiting with each other, and there are ```y``` players in each team.
@@ -15,8 +17,8 @@
 
 ## Benchmark
 
-- ```Arena-```
-  - ```Tennis-```
-    - ```Sparse-```
-      - ```2T1P-```
+- ```Arena```
+  - ```Tennis```
+    - ```Sparse```
+      - ```2T1P```
         - ```Discrete```
