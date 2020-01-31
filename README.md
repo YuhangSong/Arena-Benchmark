@@ -7,6 +7,7 @@
 A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discrete```, which follows some common naming rules as follows:
 
 * ```Arena```: a prefix identifying an Arena environment.
+* ```Tennis```: this is the name of the base game, you will see lot of different base games as well as their videos/descriptions in the following [Benchmark](#Benchmark).
 * ```Sparese```: the reward is sparse, the reward is only returned at the end of the episode.
 * ```Dense```: the reward is dense, the reward is returned every step.
 * ```xTyP```: ```x``` teams competiting with each other, and there are ```y``` players in each team.
@@ -18,7 +19,7 @@ A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discre
 ## Benchmark
 
 - ```Arena```
-  - ```Tennis```
+  - ```Tennis```: [[Video]](xxx) in this game, xxx.
     - ```Sparse```
       - ```2T1P```
         - ```Discrete```
