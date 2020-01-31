@@ -2,7 +2,7 @@
 
 
 
-## Common Naming 
+## Common Naming Rules
 
 A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discrete```, which follows some common naming rules as follows:
 
