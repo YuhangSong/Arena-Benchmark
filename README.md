@@ -18,7 +18,7 @@ The file name of a game will is with an additional suffix, indicating the target
 * ```Linux/Darwin```: (compulsory) the game is built for Linux/Darwin(i.e., Mac).
 For example, the file name of above game ```Arena-Tennis-Sparse-2T1P-Discrete``` would be ```Arena-Tennis-Sparse-2T1P-Discrete-Linux``` if it is built for Linux machines.
 
-## Benchmark
+## Benchmarked Games
 
 - ```Arena```
   - ```Tennis```: [[Video]](xxx) in this game, xxx.
