@@ -4,6 +4,8 @@
 
 ## Common Naming Rules
 
+### Naming the Game
+
 A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discrete```, which follows some common naming rules as follows:
 
 * ```Arena```: (compulsory) a prefix identifying an Arena environment.
@@ -14,9 +16,11 @@ A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discre
 * ```xTyP```: (compulsory) ```x``` teams competiting with each other, and there are ```y``` players in each team.
 * ```Discrete/Continuous```: (compulsory) discrete/continuous action space.
 
+### Naming the File
+
 The file name of a game is with an additional suffix, indicating the target platform of the built game.
 * ```Linux/Darwin```: (compulsory) the game is built for Linux/Darwin(i.e., Mac).
-For example, the file name of above game ```Arena-Tennis-Sparse-2T1P-Discrete``` would be ```Arena-Tennis-Sparse-2T1P-Discrete-Linux``` if it is built for Linux machines.
+For example, if built for Linux machines, the file name of above game ```Arena-Tennis-Sparse-2T1P-Discrete``` would be ```Arena-Tennis-Sparse-2T1P-Discrete-Linux```.
 
 ## Benchmarked Games
 
