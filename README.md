@@ -4,7 +4,9 @@
 
 ## Common Naming Rules
 
-### Naming the Game
+The ID of a game is slightly different from the file name of a game, the ID is used in the programe to identify the game, the file name is the actual file name of the compiled game.
+
+### ID of a Game
 
 A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discrete```, which follows some common naming rules as follows:
 
@@ -16,7 +18,7 @@ A typical Arena game will be named like this: ```Arena-Tennis-Sparse-2T1P-Discre
 * ```xTyP```: (compulsory) ```x``` teams competiting with each other, and there are ```y``` players in each team.
 * ```Discrete/Continuous```: (compulsory) discrete/continuous action space.
 
-### Naming the File
+### File Name of a Game
 
 The file name of a game is with an additional suffix, indicating the target platform of the built game.
 * ```Linux/Darwin```: (compulsory) the game is built for Linux/Darwin(i.e., Mac).
